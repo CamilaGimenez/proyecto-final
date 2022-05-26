@@ -1,0 +1,19 @@
+.btn-animado {
+  width: 300px;
+  color: $color-primario;
+  border-radius: 5px;
+  text-decoration: none;
+  animation-name: animaBoton;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  margin-bottom: map-get($tamaños, tamaño5);
+}
+.oferta-index {
+  font-size: map-get($tamaños, tamaño4);
+}
+.sale {
+  border: 5px solid $color-cuarto;
+  box-shadow: 10px 10px 16px rgb(119, 119, 119);
+  padding: 5px;
+}
